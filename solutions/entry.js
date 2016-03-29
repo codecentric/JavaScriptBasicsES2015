@@ -1,7 +1,4 @@
-import {getMovie, getMovies, setMovie} from './movieDB.js'
-
-
-export default function api(){}
+import {getMovie, getMovies, setMovie} from './ex3/movieDB.js'
 
 var add = document.querySelector('button[name="save"]')
 var titleE = document.querySelector('input[name="title"]')
@@ -31,5 +28,3 @@ function render(){
 }
 
 render()
-
-export
